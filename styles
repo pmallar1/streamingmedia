@@ -1,0 +1,503 @@
+html {
+  background-color: #020659;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 1.25em;
+  color: white;
+}
+
+h2,
+h3 {
+  font-size: 1em;
+}
+
+p,
+dl,
+dt {
+  font-size: 1em;
+}
+
+footer {
+  font-size: .75em;
+  text-align: center;
+  background-color: white;
+  color: #590242;
+  padding-bottom: 10px;
+}
+
+
+.scroll {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+
+.scroll section {
+  margin: 10px;
+  position: relative;
+}
+
+#trending .scroll div {
+  position: absolute;
+  top: 251px;
+  background-color: rgba(255, 255, 255, .75);
+  padding: 5px;
+  height: 50px;
+  width: 350px;
+}
+
+dl {
+  display: flex;
+}
+
+
+audio {
+  position: relative;
+  bottom: 200px;
+  left: 5px;
+}
+
+.more {
+  text-decoration: none;
+  background-color: #590242;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  margin: 10px 0 30px 32px;
+}
+
+.more:hover {
+  background-color: #020659;
+}
+
+/* */
+
+
+nav {
+  background-color: #020659;
+  color: white;
+}
+
+
+h2 {
+  display: block;
+  background: white;
+  border-color: white;
+  color: #590242;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-bottom: 0;
+  padding-left: 30px;
+}
+
+#smooth {
+  color: white;
+}
+
+header h1 {
+  text-align: center;
+}
+
+#trending {
+  background-color: white;
+  color: #590242;
+}
+
+button {
+  display: block;
+  position: relative;
+  background-color: #590242;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#playlists {
+  background-color: #2699FB;
+  margin: 0;
+padding-bottom: 0;
+}
+
+#playlists section {
+  background-color: #0d8dfb;
+}
+
+#playlists button {
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+#curated {
+  background-color: #030A9C;
+  padding-top: 0px;
+}
+
+#curated section{
+  background-color: #030A8C;
+}
+
+#curated button {
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+footer p {
+  font-size: 0.75em;
+}
+
+audio::webkit-media-controls-mute-button {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+audio::webkit-media-controls-play-button {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+audio::webkit-media-controls-enclosure {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+#trending ::-webkit-scrollbar {
+  width: 15px;
+}
+
+#trending ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 15px #590242;
+}
+
+#trending ::-webkit-scrollbar-thumb {
+  background: #590242;
+  border-radius: 5px;
+}
+
+#trending ::-webkit-scrollbar-thumb:hover {
+  background: #020659;
+}
+
+#playlists ::-webkit-scrollbar,
+#curated ::-webkit-scrollbar {
+  width: 15px;
+}
+
+#playlists ::-webkit-scrollbar-track,
+#curated ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 15px #020659;
+}
+
+#playlists ::-webkit-scrollbar-thumb,
+#curated ::-webkit-scrollbar-thumb {
+  background: #020659;
+  border-radius: 5px;
+}
+
+#playlists ::-webkit-scrollbar-thumb:hover,
+#curated ::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+
+/*Menu Code for Mobile First Style (minus the bits you know how to do):
+
+            375px
+
+*/
+@media screen and (min-width:375px) {
+
+#trending h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#trending dl {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+#trending dt {
+  margin-top: 0;
+  margin-left: 0px;
+}
+
+
+  #trending .scroll {
+    grid-template-columns: 1 5fr;
+  }
+
+
+  #trending button {
+    margin-left: 40px;
+  }
+
+  #secondpart {
+    color: white;
+  }
+
+  #secondpart h2 {
+    padding-bottom: 20px;
+  }
+
+  #secondpart {
+    color: white;
+  }
+
+  #secondpart h3 {
+    text-align: center;
+  }
+
+  #secondpart p {
+    text-align: center;
+  }
+
+  #playlists .scroll {
+    grid-template-columns: 1 5fr;
+
+  }
+
+  #playlists {
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+  }
+
+  #playlists section {
+    margin-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+#playlists .scroll {
+  padding-bottom: 0px;
+}
+
+  #playlists button {
+    display: block;
+    position: relative;
+    margin-bottom: 0px;
+  }
+
+  .bttn {
+    background-color: white;
+    padding-top: 1px;
+  padding-bottom: 40px;
+  }
+
+
+
+  #curated .scroll {
+    grid-template-columns: 1 5fr;
+  }
+
+  #curated section {
+    margin-left: 16px;
+    padding-bottom: 10px;
+  }
+
+  #curated .button {
+    display: block;
+    position: absolute;
+  }
+
+  ul {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+  label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+
+  label span {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color .2s ease-out;
+    width: 18px;
+  }
+
+  label span:before,
+  label span:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+
+  label span:before {
+    top: 5px;
+  }
+
+  label span:after {
+    top: -5px;
+  }
+
+  input {
+    display: none;
+  }
+
+  input:checked~ul {
+    max-height: 500px;
+  }
+
+  input:checked~label span {
+    background: transparent;
+  }
+
+  input:checked~label span:before {
+    transform: rotate(-45deg);
+  }
+
+  input:checked~label span:after {
+    transform: rotate(45deg);
+  }
+
+  input:checked~label:not(.steps) span:before,
+  input:checked~label:not(.steps) span:after {
+    top: 0;
+  }
+}
+
+/*Menu Code for Mobile First Style (minus the bits you know how to do):
+
+            834px
+
+*/
+
+@media screen and (min-width:834px) {
+  ul {
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    padding-bottom: 10px;
+  }
+
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  li {
+    padding-right: 100px;
+  }
+
+  .title {
+    color: transparent;
+  }
+
+
+  #secondpart {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+  }
+
+
+  #playlists section {
+
+    padding-bottom: 20px;
+    align-items: right;
+  }
+
+  #playlists img {
+
+    margin-top: 0;
+    padding: 15px;
+    float: left;
+    max-width: 100%;
+    max-height:100%;
+    display: table;
+    align-items: center;
+  }
+
+  #playlists p {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  #playlists .scroll {
+    grid-template-columns: 1fr 1fr;
+    display: list-item;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+  }
+
+  #playlists h3 {
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+
+  #curated section {
+
+    padding: 6px;
+    align-items: right;
+  }
+
+  #curated img {
+
+    margin-top: 0;
+    padding: 15px;
+    float: left;
+    max-width: 100%;
+    max-height:100%;
+    display: table;
+    align-items: center;
+  }
+
+  #curated p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  #curated .scroll {
+    grid-template-columns: 1fr 1fr;
+    display: list-item;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+  }
+
+  #curated h3 {
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+}
