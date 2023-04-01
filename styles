@@ -235,7 +235,7 @@ audio::webkit-media-controls-enclosure {
 
 
   #trending .scroll {
-    grid-template-columns: 1 5fr;
+    grid-template-columns: 5fr 1;
   }
 
 
@@ -299,7 +299,7 @@ audio::webkit-media-controls-enclosure {
 
 
   #curated .scroll {
-    grid-template-columns: 1 5fr;
+    grid-template-columns: 5fr 1;
   }
 
   #curated section {

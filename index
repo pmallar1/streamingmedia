@@ -29,10 +29,10 @@
 
     <nav>
         <ul>
-            <li><a href="#home"></a>MuzakMaker</a></li>
-            <li><a href="#trending">Trending <br />Songs</a></li>
-            <li><a href="#playlists">TYour <br />playlists</a></li>
-            <li><a href="#curated">TCurated <br />Playlists</a></li>
+            <li><a href="#home"></a>MuzakMaker</li>
+            <li><a href="#trending">Trending <br/>Songs</a></li>
+            <li><a href="#playlists">TYour <br/>playlists</a></li>
+            <li><a href="#curated">TCurated <br/>Playlists</a></li>
             <li><a href="user"><img src="duke-silver.png" alt="user profile picture"></a>
             </li>
         </ul>
@@ -62,7 +62,7 @@
                         <h3>My Road</h3>
                         <dl>
                             <dt>Artist</dt>
-                            <dt>Nesterouk</dt>
+                            <dd>Nesterouk</dd>
                         </dl>
                     </div>
                     <img src="my-road-cover.png" alt="middle of the road in a desert highway">
@@ -75,7 +75,7 @@
                     <div>
                         <h3>Papaya</h3>
                         <dl>
-                            <dd>Artist</dd>
+                            <dt>Artist</dt>
                             <dd>Black Rhomb</dd>
                         </dl>
                     </div>
@@ -90,7 +90,7 @@
                         <h3>Smoothies</h3>
                         <dl>
                             <dt>Artist</dt>
-                            <dt>Black Rhomb</dt>
+                            <dd>Black Rhomb</dd>
                         </dl>
                     </div>
                     <img src="smoothies-cover.png" alt="smoothies">
@@ -104,7 +104,7 @@
                         <h3>My Road</h3>
                         <dl>
                             <dt>Artist</dt>
-                            <dt>Nesterouk</dt>
+                            <dd>Nesterouk</dd>
                         </dl>
                     </div>
                     <img src="successful-performance-cover.png" alt="middle of the road in a desert highway">
@@ -125,27 +125,27 @@
 <h2>Your Playlists</h2>
             <div class="scroll">
                 <section>
-                    <img src="best-of-2020-cover.png">
+                    <img src="best-of-2020-cover.png" alt="2020s best">
                     <h3>Best of 2020</h3>
                     <p>The music that got you through the lock down.</p>
                 </section>
                 <section>
-                    <img src="pumpkin-spice-cover.png">
+                    <img src="pumpkin-spice-cover.png" alt="spicy pumpkin">
                     <h3>Pumpkin Spice</h3>
                     <p>Creamy and spicy, just like your favorite autumnal latte.</p>
                 </section>
                 <section>
-                    <img src="quiet-storm-cover.png">
+                    <img src="quiet-storm-cover.png" alt="quiet storms">
                     <h3>Quiet Storm</h3>
                     <p>Slow tempos and relaxed rhythms. </p>
                 </section>
                 <section>
-                    <img src="smooth-jazz-cover.png">
+                    <img src="smooth-jazz-cover.png" alt="smoooooth jazz cover">
                     <h3>Smooth Jazz</h3>
                     <p>The pioneers of smooth jazz</p>
                 </section>
                 <section>
-                    <img src="smooth-study-cover.png">
+                    <img src="smooth-study-cover.png" alt="person studying">
                     <h3>Smooth Study</h3>
                     <p>Background music to keep you going while you study. </p>
                 </section>
@@ -159,27 +159,27 @@
 <h2>Curated Playlists</h2>
             <div class="scroll">
                 <section>
-                    <img src="boozy-brunch-cover.png">
+                    <img src="boozy-brunch-cover.png" alt="brunch with alcohol">
                     <h3>Boozy Brunch</h3>
                     <p>Light up the afternoon with these energetic hits. </p>
                 </section>
                 <section>
-                    <img src="dinner-party-cover.png">
+                    <img src="dinner-party-cover.png" alt="dinner party gathering">
                     <h3>Dinner Party</h3>
                     <p>Background music to give your party life, but allow your guests to chat. </p>
                 </section>
                 <section>
-                    <img src="mellow-cover.png">
+                    <img src="mellow-cover.png" alt="relaxed mood">
                     <h3>Mellow</h3>
                     <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
                 </section>
                 <section>
-                    <img src="jazz-chill-cover.png">
+                    <img src="jazz-chill-cover.png" alt="relaxing jazz cover">
                     <h3>Jazz and Chill</h3>
                     <p>Set the mood with these silky sounds.</p>
                 </section>
                 <section>
-                    <img src="smooth-saxophone-cover.png">
+                    <img src="smooth-saxophone-cover.png" alt="relaxing saxophone">
                     <h3>Jazz Saxophone</h3>
                     <p>The greatest collection of your sax favorites.
                     </p>
@@ -189,13 +189,12 @@
             <button>More curated</button></div>
         </section>
 
-        </section>
     </div>
     </main>
-        <section>
+        <section class="footer">
             <footer>Copyright 2022 Smooth Jazz</footer>
         </section>
-    </div>
+
 
 </body>
 
