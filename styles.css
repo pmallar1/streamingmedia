@@ -47,7 +47,7 @@ footer {
   background-color: rgba(255, 255, 255, .75);
   padding: 5px;
   height: 50px;
-  width: 350px;
+  width: 100%
 }
 
 dl {
@@ -61,19 +61,9 @@ audio {
   left: 5px;
 }
 
-.more {
-  text-decoration: none;
-  background-color: #590242;
-  color: #ffffff;
-  border-radius: 5px;
-  padding: 10px;
-  width: 150px;
-  display: block;
-  text-align: center;
-  margin: 10px 0 30px 32px;
-}
 
-.more:hover {
+
+.bttn button:hover {
   background-color: #020659;
 }
 
@@ -109,6 +99,12 @@ header h1 {
 #trending {
   background-color: white;
   color: #590242;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#trending button {
+  padding-bottom: 10px;
 }
 
 button {
@@ -465,7 +461,7 @@ audio::webkit-media-controls-enclosure {
   #curated section {
 
     padding: 6px;
-    align-items: right;
+    align-items: left;
   }
 
   #curated img {
@@ -486,7 +482,6 @@ audio::webkit-media-controls-enclosure {
   }
 
   #curated .scroll {
-    grid-template-columns: 1fr 1fr;
     display: list-item;
     height: 700px;
     overflow-x: hidden;
